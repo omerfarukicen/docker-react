@@ -5,4 +5,4 @@ before_install:
   - docker build -t omer/docker-react -f Dockerfile.dev .
 
 script :
-  - docker run omer/docker npm run test -- --coverage
+  - docker run omer/docker-react npm run test
